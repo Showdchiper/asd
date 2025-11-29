@@ -29,7 +29,7 @@
       </collision>
       
       <visual name="visual">
-        <pose>0 0 -0.35 0 0 0</pose>
+        <pose>0 0 -0.35 0 0 1.5708</pose>
         <geometry>
           <mesh>
             <uri>model://MarsRover/mars_rover.dae</uri>
@@ -91,7 +91,7 @@
         <geometry>
           <cylinder><radius>0.2</radius><length>0.15</length></cylinder>
         </geometry>
-        <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+        <material><ambient>0 0 0 0</ambient><diffuse>0 0 0 0</diffuse></material>
       </visual>
     </link>
     <joint name="left_front_wheel_joint" type="revolute">
@@ -126,7 +126,7 @@
         <geometry>
           <cylinder><radius>0.2</radius><length>0.15</length></cylinder>
         </geometry>
-        <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+        <material><ambient>0 0 0 0</ambient><diffuse>0 0 0 0</diffuse></material>
       </visual>
     </link>
     <joint name="right_front_wheel_joint" type="revolute">
@@ -161,7 +161,7 @@
         <geometry>
           <cylinder><radius>0.2</radius><length>0.15</length></cylinder>
         </geometry>
-        <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+        <material><ambient>0 0 0 0</ambient><diffuse>0 0 0 0</diffuse></material>
       </visual>
     </link>
     <joint name="left_rear_wheel_joint" type="revolute">
@@ -196,7 +196,7 @@
         <geometry>
           <cylinder><radius>0.2</radius><length>0.15</length></cylinder>
         </geometry>
-        <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+        <material><ambient>0 0 0 0</ambient><diffuse>0 0 0 0</diffuse></material>
       </visual>
     </link>
     <joint name="right_rear_wheel_joint" type="revolute">

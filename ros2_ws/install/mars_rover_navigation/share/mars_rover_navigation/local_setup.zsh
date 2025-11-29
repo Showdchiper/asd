@@ -1,1 +1,0 @@
-/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,1 +1,0 @@
-/home/sakshi/ignitio/ros2_ws/src/mars_rover_navigation/launch/rover_navigation.launch.py

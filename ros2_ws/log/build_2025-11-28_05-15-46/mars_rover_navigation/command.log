@@ -1,4 +1,0 @@
-Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation -- -j16 -l16
-Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation -- -j16 -l16
-Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation
-Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation
