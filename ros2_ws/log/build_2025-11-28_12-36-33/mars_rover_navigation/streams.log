@@ -1,0 +1,83 @@
+[0.013s] Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sakshi/ignitio/ros2_ws/src/mars_rover_navigation -DCMAKE_INSTALL_PREFIX=/home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.203s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.258s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.262s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.362s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.366s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.543s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.576s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.592s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.612s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.724s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.760s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.110s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.117s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.117s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.243s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.249s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.255s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.372s] -- Found Qhull version 8.0.2
+[1.496s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.613s] -- looking for PCL_COMMON
+[1.613s] -- looking for PCL_KDTREE
+[1.613s] -- looking for PCL_OCTREE
+[1.613s] -- looking for PCL_SEARCH
+[1.613s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.614s] -- looking for PCL_FILTERS
+[1.614s] -- looking for PCL_2D
+[1.614s] -- looking for PCL_GEOMETRY
+[1.614s] -- looking for PCL_IO
+[1.614s] -- looking for PCL_FEATURES
+[1.615s] -- looking for PCL_ML
+[1.615s] -- looking for PCL_SEGMENTATION
+[1.615s] -- looking for PCL_VISUALIZATION
+[1.615s] -- looking for PCL_SURFACE
+[1.616s] -- looking for PCL_REGISTRATION
+[1.616s] -- looking for PCL_KEYPOINTS
+[1.616s] -- looking for PCL_TRACKING
+[1.616s] -- looking for PCL_RECOGNITION
+[1.617s] -- looking for PCL_STEREO
+[1.617s] -- looking for PCL_APPS
+[1.617s] -- looking for PCL_IN_HAND_SCANNER
+[1.618s] -- looking for PCL_MODELER
+[1.618s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.618s] -- looking for PCL_OUTOFCORE
+[1.618s] -- looking for PCL_PEOPLE
+[1.620s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.701s] -- Configuring done
+[1.774s] -- Generating done
+[1.782s] -- Build files have been written to: /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation
+[1.797s] Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sakshi/ignitio/ros2_ws/src/mars_rover_navigation -DCMAKE_INSTALL_PREFIX=/home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation
+[1.799s] Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation -- -j16 -l16
+[1.843s] [35m[1mConsolidate compiler generated dependencies of target object_detector[0m
+[1.862s] [100%] Built target object_detector
+[1.872s] Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation -- -j16 -l16
+[1.883s] Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation
+[1.888s] -- Install configuration: ""
+[1.889s] -- Execute custom install script
+[1.889s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/lib/mars_rover_navigation/object_detector
+[1.889s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/launch/rover_navigation.launch.py
+[1.889s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/launch/test_lidar.launch.py
+[1.889s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/config/nav2_params.yaml
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/package_run_dependencies/mars_rover_navigation
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/parent_prefix_path/mars_rover_navigation
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/ament_prefix_path.sh
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/ament_prefix_path.dsv
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/path.sh
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/path.dsv
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.bash
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.sh
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.zsh
+[1.890s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.dsv
+[1.891s] -- Symlinking: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/package.dsv
+[1.899s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/packages/mars_rover_navigation
+[1.899s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/cmake/mars_rover_navigationConfig.cmake
+[1.899s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/cmake/mars_rover_navigationConfig-version.cmake
+[1.900s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/package.xml
+[1.902s] Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation

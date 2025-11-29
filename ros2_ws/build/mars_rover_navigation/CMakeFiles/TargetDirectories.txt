@@ -1,0 +1,10 @@
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/uninstall.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/mars_rover_navigation_uninstall.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/object_detector.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/test.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/edit_cache.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/rebuild_cache.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/list_install_components.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/install.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/install/local.dir
+/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation/CMakeFiles/install/strip.dir

@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (mars_rover_navigation) JobQueued: {'identifier': 'mars_rover_navigation', 'dependencies': OrderedDict()}
+[0.000672] (mars_rover_navigation) JobStarted: {'identifier': 'mars_rover_navigation'}
+[0.013762] (mars_rover_navigation) JobProgress: {'identifier': 'mars_rover_navigation', 'progress': 'cmake'}
+[0.016484] (mars_rover_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/sakshi/ignitio/ros2_ws/src/mars_rover_navigation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation'], 'cwd': '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/sakshi/lunarsurface:/home/sakshi/lunarsurface:/home/sakshi/lunarsurface:/home/sakshi/lunarsurface'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sakshi'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sakshi'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/sakshi/ignitio'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1592'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1769'), ('BUNDLED_DEBUGPY_PATH', '/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2362'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '8:13947'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sakshi/.local/bin:/home/sakshi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/sakshi/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/sakshi/.local/bin:/opt/ros/humble/bin:/home/sakshi/.local/bin:/home/sakshi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/sakshi-IdeaPad-Gaming-3-15ARH7:@/tmp/.ICE-unix/1739,unix/sakshi-IdeaPad-Gaming-3-15ARH7:/tmp/.ICE-unix/1739'), ('INVOCATION_ID', '60f27b8a837340e8b8b04f3dc52af7f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-668a4fedfe3a36c1.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/sakshi/.config/Code/User/workspaceStorage/5bf479646598a0d6c74a3fd9521a89be/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2N2JG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2302dd326c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.070263] (mars_rover_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099603] (-) TimerEvent: {}
+[0.199931] (-) TimerEvent: {}
+[0.205670] (mars_rover_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.232198] (mars_rover_navigation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.280551] (mars_rover_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.284626] (mars_rover_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.293851] (mars_rover_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300005] (-) TimerEvent: {}
+[0.308136] (mars_rover_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.324689] (mars_rover_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.373074] (mars_rover_navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.375922] (mars_rover_navigation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400133] (-) TimerEvent: {}
+[0.498088] (mars_rover_navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500185] (-) TimerEvent: {}
+[0.563164] (mars_rover_navigation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.598367] (mars_rover_navigation) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.600253] (-) TimerEvent: {}
+[0.618462] (mars_rover_navigation) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.638612] (mars_rover_navigation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.700368] (-) TimerEvent: {}
+[0.764253] (mars_rover_navigation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.800469] (-) TimerEvent: {}
+[0.806002] (mars_rover_navigation) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.900630] (-) TimerEvent: {}
+[1.000991] (-) TimerEvent: {}
+[1.101287] (-) TimerEvent: {}
+[1.201582] (-) TimerEvent: {}
+[1.250603] (mars_rover_navigation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.257630] (mars_rover_navigation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.257888] (mars_rover_navigation) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.301685] (-) TimerEvent: {}
+[1.384433] (mars_rover_navigation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.390322] (mars_rover_navigation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.396151] (mars_rover_navigation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.401759] (-) TimerEvent: {}
+[1.502036] (-) TimerEvent: {}
+[1.515163] (mars_rover_navigation) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.602123] (-) TimerEvent: {}
+[1.639872] (mars_rover_navigation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.702226] (-) TimerEvent: {}
+[1.758538] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.758793] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.759018] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.759230] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.759438] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.759655] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.759887] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.760082] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.760242] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.760497] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.760739] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.760947] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.761236] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.761537] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.761789] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.762106] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.762348] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.762588] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.762910] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.763126] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.763615] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.763784] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.763967] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.764124] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.764369] (mars_rover_navigation) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.766182] (mars_rover_navigation) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.802348] (-) TimerEvent: {}
+[1.854138] (mars_rover_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902466] (-) TimerEvent: {}
+[1.931948] (mars_rover_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.940336] (mars_rover_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation\n'}
+[1.954778] (mars_rover_navigation) CommandEnded: {'returncode': 0}
+[1.955452] (mars_rover_navigation) JobProgress: {'identifier': 'mars_rover_navigation', 'progress': 'build'}
+[1.956160] (mars_rover_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation', '--', '-j16', '-l16'], 'cwd': '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/sakshi/lunarsurface:/home/sakshi/lunarsurface:/home/sakshi/lunarsurface:/home/sakshi/lunarsurface'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sakshi'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sakshi'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/sakshi/ignitio'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1592'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1769'), ('BUNDLED_DEBUGPY_PATH', '/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2362'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '8:13947'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sakshi/.local/bin:/home/sakshi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/sakshi/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/sakshi/.local/bin:/opt/ros/humble/bin:/home/sakshi/.local/bin:/home/sakshi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/sakshi-IdeaPad-Gaming-3-15ARH7:@/tmp/.ICE-unix/1739,unix/sakshi-IdeaPad-Gaming-3-15ARH7:/tmp/.ICE-unix/1739'), ('INVOCATION_ID', '60f27b8a837340e8b8b04f3dc52af7f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-668a4fedfe3a36c1.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/sakshi/.config/Code/User/workspaceStorage/5bf479646598a0d6c74a3fd9521a89be/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2N2JG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2302dd326c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.999355] (mars_rover_navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target object_detector\x1b[0m\n'}
+[2.002530] (-) TimerEvent: {}
+[2.052089] (mars_rover_navigation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector.cpp.o\x1b[0m\n'}
+[2.102655] (-) TimerEvent: {}
+[2.203125] (-) TimerEvent: {}
+[2.303704] (-) TimerEvent: {}
+[2.404044] (-) TimerEvent: {}
+[2.504338] (-) TimerEvent: {}
+[2.604628] (-) TimerEvent: {}
+[2.704904] (-) TimerEvent: {}
+[2.805225] (-) TimerEvent: {}
+[2.905533] (-) TimerEvent: {}
+[3.005895] (-) TimerEvent: {}
+[3.106423] (-) TimerEvent: {}
+[3.206909] (-) TimerEvent: {}
+[3.307229] (-) TimerEvent: {}
+[3.407556] (-) TimerEvent: {}
+[3.507912] (-) TimerEvent: {}
+[3.608296] (-) TimerEvent: {}
+[3.708745] (-) TimerEvent: {}
+[3.809032] (-) TimerEvent: {}
+[3.909279] (-) TimerEvent: {}
+[4.009525] (-) TimerEvent: {}
+[4.109769] (-) TimerEvent: {}
+[4.210039] (-) TimerEvent: {}
+[4.310336] (-) TimerEvent: {}
+[4.410637] (-) TimerEvent: {}
+[4.510903] (-) TimerEvent: {}
+[4.611217] (-) TimerEvent: {}
+[4.711520] (-) TimerEvent: {}
+[4.811819] (-) TimerEvent: {}
+[4.912159] (-) TimerEvent: {}
+[5.012458] (-) TimerEvent: {}
+[5.112758] (-) TimerEvent: {}
+[5.213076] (-) TimerEvent: {}
+[5.313376] (-) TimerEvent: {}
+[5.413670] (-) TimerEvent: {}
+[5.513985] (-) TimerEvent: {}
+[5.614386] (-) TimerEvent: {}
+[5.714904] (-) TimerEvent: {}
+[5.815449] (-) TimerEvent: {}
+[5.915790] (-) TimerEvent: {}
+[6.016133] (-) TimerEvent: {}
+[6.116506] (-) TimerEvent: {}
+[6.216767] (-) TimerEvent: {}
+[6.317079] (-) TimerEvent: {}
+[6.417417] (-) TimerEvent: {}
+[6.517753] (-) TimerEvent: {}
+[6.618081] (-) TimerEvent: {}
+[6.718384] (-) TimerEvent: {}
+[6.818724] (-) TimerEvent: {}
+[6.919168] (-) TimerEvent: {}
+[7.019476] (-) TimerEvent: {}
+[7.119777] (-) TimerEvent: {}
+[7.220102] (-) TimerEvent: {}
+[7.320396] (-) TimerEvent: {}
+[7.420692] (-) TimerEvent: {}
+[7.521041] (-) TimerEvent: {}
+[7.621506] (-) TimerEvent: {}
+[7.722126] (-) TimerEvent: {}
+[7.822438] (-) TimerEvent: {}
+[7.922872] (-) TimerEvent: {}
+[8.023363] (-) TimerEvent: {}
+[8.123633] (-) TimerEvent: {}
+[8.224001] (-) TimerEvent: {}
+[8.324256] (-) TimerEvent: {}
+[8.424542] (-) TimerEvent: {}
+[8.524799] (-) TimerEvent: {}
+[8.625098] (-) TimerEvent: {}
+[8.725409] (-) TimerEvent: {}
+[8.825782] (-) TimerEvent: {}
+[8.926183] (-) TimerEvent: {}
+[9.026635] (-) TimerEvent: {}
+[9.127044] (-) TimerEvent: {}
+[9.216620] (mars_rover_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable object_detector\x1b[0m\n'}
+[9.227144] (-) TimerEvent: {}
+[9.327517] (-) TimerEvent: {}
+[9.428008] (-) TimerEvent: {}
+[9.528436] (-) TimerEvent: {}
+[9.628713] (-) TimerEvent: {}
+[9.729009] (-) TimerEvent: {}
+[9.829360] (-) TimerEvent: {}
+[9.929829] (-) TimerEvent: {}
+[10.030227] (-) TimerEvent: {}
+[10.130582] (-) TimerEvent: {}
+[10.224411] (mars_rover_navigation) StdoutLine: {'line': b'[100%] Built target object_detector\n'}
+[10.230662] (-) TimerEvent: {}
+[10.235674] (mars_rover_navigation) CommandEnded: {'returncode': 0}
+[10.236806] (mars_rover_navigation) JobProgress: {'identifier': 'mars_rover_navigation', 'progress': 'install'}
+[10.245557] (mars_rover_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation'], 'cwd': '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/sakshi/lunarsurface:/home/sakshi/lunarsurface:/home/sakshi/lunarsurface:/home/sakshi/lunarsurface'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sakshi'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sakshi'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/sakshi/ignitio'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1592'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1769'), ('BUNDLED_DEBUGPY_PATH', '/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2362'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '8:13947'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sakshi/.local/bin:/home/sakshi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/sakshi/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/sakshi/.local/bin:/opt/ros/humble/bin:/home/sakshi/.local/bin:/home/sakshi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/sakshi-IdeaPad-Gaming-3-15ARH7:@/tmp/.ICE-unix/1739,unix/sakshi-IdeaPad-Gaming-3-15ARH7:/tmp/.ICE-unix/1739'), ('INVOCATION_ID', '60f27b8a837340e8b8b04f3dc52af7f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sakshi/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-668a4fedfe3a36c1.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/sakshi/.config/Code/User/workspaceStorage/5bf479646598a0d6c74a3fd9521a89be/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2N2JG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2302dd326c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.253887] (mars_rover_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.254653] (mars_rover_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.255107] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/lib/mars_rover_navigation/object_detector\n'}
+[10.255336] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/launch/rover_navigation.launch.py\n'}
+[10.255439] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/launch/test_lidar.launch.py\n'}
+[10.255608] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/config/nav2_params.yaml\n'}
+[10.255748] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/package_run_dependencies/mars_rover_navigation\n'}
+[10.255884] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/parent_prefix_path/mars_rover_navigation\n'}
+[10.256001] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/ament_prefix_path.sh\n'}
+[10.256103] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/ament_prefix_path.dsv\n'}
+[10.256249] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/path.sh\n'}
+[10.256373] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/path.dsv\n'}
+[10.256471] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.bash\n'}
+[10.256572] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.sh\n'}
+[10.256677] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.zsh\n'}
+[10.256780] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.dsv\n'}
+[10.256854] (mars_rover_navigation) StdoutLine: {'line': b'-- Symlinking: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/package.dsv\n'}
+[10.265992] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/packages/mars_rover_navigation\n'}
+[10.266193] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/cmake/mars_rover_navigationConfig.cmake\n'}
+[10.266307] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/cmake/mars_rover_navigationConfig-version.cmake\n'}
+[10.266391] (mars_rover_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/package.xml\n'}
+[10.267912] (mars_rover_navigation) CommandEnded: {'returncode': 0}
+[10.299428] (mars_rover_navigation) JobEnded: {'identifier': 'mars_rover_navigation', 'rc': 0}
+[10.300136] (-) EventReactorShutdown: {}

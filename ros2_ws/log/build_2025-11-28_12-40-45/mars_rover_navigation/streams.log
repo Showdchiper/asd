@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation -- -j16 -l16
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector.cpp.o[0m
+[9.541s] [100%] [32m[1mLinking CXX executable object_detector[0m
+[10.791s] [100%] Built target object_detector
+[10.805s] Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation -- -j16 -l16
+[10.818s] Invoking command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation
+[10.827s] -- Install configuration: ""
+[10.827s] -- Execute custom install script
+[10.828s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/lib/mars_rover_navigation/object_detector
+[10.828s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/launch/rover_navigation.launch.py
+[10.828s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/launch/test_lidar.launch.py
+[10.828s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/config/nav2_params.yaml
+[10.828s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/package_run_dependencies/mars_rover_navigation
+[10.828s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/parent_prefix_path/mars_rover_navigation
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/ament_prefix_path.sh
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/ament_prefix_path.dsv
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/path.sh
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/environment/path.dsv
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.bash
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.sh
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.zsh
+[10.829s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/local_setup.dsv
+[10.830s] -- Symlinking: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/package.dsv
+[10.840s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/ament_index/resource_index/packages/mars_rover_navigation
+[10.840s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/cmake/mars_rover_navigationConfig.cmake
+[10.840s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/cmake/mars_rover_navigationConfig-version.cmake
+[10.840s] -- Up-to-date symlink: /home/sakshi/ignitio/ros2_ws/install/mars_rover_navigation/share/mars_rover_navigation/package.xml
+[10.843s] Invoked command in '/home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sakshi/ignitio/ros2_ws/build/mars_rover_navigation
